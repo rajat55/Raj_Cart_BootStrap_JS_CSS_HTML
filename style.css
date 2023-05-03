@@ -1,0 +1,166 @@
+
+
+:root{
+    --bg-red : #EDF5E1;
+    --bg-m : #c3073f;
+}
+body{
+    border: 1px red solid;
+    margin: 0px;
+}
+.row
+{
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+    
+    
+}
+img{
+    border-radius: 19px;
+    
+}
+.borSec{
+    border: solid red 2px;
+}
+div .col-2{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+#card-row{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+#navigation{
+    margin-bottom: 0px;
+    width: 100%;
+    
+    
+}
+
+.categ-img{
+    height: 150px;
+    
+}
+#categ-btn{
+    border: none;
+    background-color: black;
+}
+.col{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.card-body{
+    
+}
+
+nav .logo{
+    
+}
+nav img{
+    width: 50px;
+}
+nav input{
+    width: 100%;
+    align-text: center;
+    border: none;
+    border-bottom:green solid 3px ;
+}
+.d-block{
+    height: 400px;
+}
+
+#jumbo-bg{
+   background-image: url(resorces/fashion.jpg);
+}
+#jumbo-bg p{
+    color: azure;
+}
+#jumbo-bg h1{
+    color: azure;
+}
+#card-row .col{
+    margin-bottom: 5px;
+    padding: 4px 40px;
+}
+#buf{
+    text-align: center;
+}
+#newl{
+    height: 300px;
+    text-align: center;
+}
+#new-text{
+    padding-top: 100px;
+}
+#new-text h3{
+    color: aliceblue;
+}
+#new-text input{
+    border: none;
+    border-bottom: solid 2px red;
+    background-color: inherit;
+}
+
+footer{
+    background-color: blueviolet;
+}
+
+
+.f-div{
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    margin: 10px;
+}
+.f-div h3{
+    display: inline-block;
+}
+footer li{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 15px;
+    text-align: left;
+    margin: 3px 0px;
+}
+a{
+    text-decoration: none;
+}
+.f-div h5{
+    font-size: 15px;
+    color: #c3073f;
+    text-align: left;
+    border: 1px solid rgba(139, 135, 135, 0.452);
+    border-radius: 8px;
+    vertical-align: top;
+}
+.f-div h3{
+    margin: 2px 0px;
+    margin-top: 2px;
+    font-size: 18px;
+}
+
+.card{
+    border-radius: 10px;
+}
+
+.container-fluid{
+
+    margin: 0px;
+    padding: 0px;
+}
+
+footer{
+    padding: 25px 30px;
+}
+
+.f-div{
+    margin-left: 18px;
+    margin-right: 18px;
+    
+}

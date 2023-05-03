@@ -1,0 +1,639 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Departmental Store</title>
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+  <body>
+    <div class="container-fluid">
+        <nav class="row">
+            <div class="col-1">
+                <img  src="resorces/logo.jpg" alt="">
+            </div>
+            <div class="col-2">
+                <h4 class="logo" >Raj-Kart</h4>
+            </div>
+             <div class="col-6">
+               <input  type="text" placeholder="Search for Products">
+            </div>
+             <div class="col-1">
+                <button class="btn btn-success"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="col-2">
+                <button type="button" class="btn btn-success">Login</button>
+                <button type="button" class="btn btn-primary">Offers</button>
+            
+            </div>
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navigation">
+                <a class="navbar-brand" href="#">Raj(at+1)</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">New Launch</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        More
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Contact Us</a>
+                        <a class="dropdown-item" href="#">Complain</a>
+                        <a class="dropdown-item" href="#">Help</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+           
+           
+            
+            
+            
+        </nav>
+        <section class="container-fluid">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item m-0">
+                    <img class="d-block w-100" src="resorces/bed-1979270_1280.jpg" alt="First slide">
+                  </div>
+                  <div class="carousel-item active">
+                    <img class="d-block w-100 m-0 p-0" src="resorces/banner-4.jpg" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="resorces/student-849822_1280.jpg" alt="Third slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        </section>
+
+        <div class="container-fluid bg-light">
+            <div class="row">
+                <div class="col">
+                    <h2>Categories</h2>
+                </div>
+            </div>
+        </div>
+
+        <section class="container-fluid bg-dark">
+            <div class="row">
+                <div class="col">
+                    <button id="categ-btn">
+                    <div class="card" style="width: 18rem;">
+                        
+                        <img class="card-img-top categ-img" src="resorces/electronic.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <p class="card-text "><b>Electronics</b></p>
+                        </div>
+                      </div>
+                    </button>
+                </div>
+                <div class="col">
+                    <button id="categ-btn">
+                    <div class="card" style="width: 18rem;">
+                        
+                        <img class="card-img-top categ-img" src="resorces/pexels-engin-akyurt-6616435.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <p class="card-text "><b>Grocery</b></p>
+                        </div>
+                      </div>
+                    </button>
+                </div>
+                <div class="col">
+                    <button id="categ-btn">
+                    <div class="card" style="width: 18rem;">
+                        
+                        <img class="card-img-top categ-img" src="resorces/pexels-abel-kayode-11054161.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <p class="card-text "><b>Clothing</b></p>
+                        </div>
+                      </div>
+                    </button>
+                </div>
+                <div class="col">
+                    <button id="categ-btn">
+                    <div class="card" style="width: 18rem;">
+                        
+                        <img class="card-img-top categ-img" src="resorces/books.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <p class="card-text "><b>Books</b></p>
+                        </div>
+                      </div>
+                    </button>
+                </div>
+                <div class="col">
+                    <button id="categ-btn">
+                    <div class="card" style="width: 18rem;">
+                        
+                        <img class="card-img-top categ-img" src="resorces/fashion.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <p class="card-text "><b>Fashion</b></p>
+                        </div>
+                      </div>
+                    </button>
+                </div>
+            </div>
+           
+        </section>
+
+        <div class="container-fluid bg-light">
+            <div class="row">
+                <div class="col">
+                    <h2>Treanding Products</h2>
+                </div>
+            </div>
+        </div>
+
+        <section class="container-fluid bg-dark pt-5">
+            <div class="row" id="card-row">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="resorces/pexels-matthew-montrone-1324803.jpg" alt="Card image cap">
+                        <div class="card-body m-0 p-0">
+                          <h5 class="card-title">Samsung Phone</h5>
+                          <p class="card-text">Flagship Phone From Samsung</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Price <b>2000</b></li>
+                       
+                        </ul>
+                        <div class="card-body">
+                            <a href="#" class="card-link btn btn-success">Cart+</a>
+                            <a href="#" class="card-link btn btn-success">Buy Now</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col" id="buf">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="resorces/image3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung Phone</h5>
+                            <p class="card-text">Flagship Phone From Samsung</p>
+                          </div>
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Price <b>2000</b></li>
+                         
+                          </ul>
+                          <div class="card-body">
+                            <a href="#" class="card-link btn btn-success">Cart+</a>
+                            <a href="#" class="card-link btn btn-success">Buy Now</a>
+                          </div>
+                        </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="resorces/image2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung Phone</h5>
+                            <p class="card-text">Flagship Phone From Samsung</p>
+                          </div>
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Price <b>2000</b></li>
+                         
+                          </ul>
+                          <div class="card-body">
+                            <a href="#" class="card-link btn btn-success">Cart+</a>
+                            <a href="#" class="card-link btn btn-success">Buy Now</a>
+                          </div>
+                        </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="resorces/image2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung Phone</h5>
+                            <p class="card-text">Flagship Phone From Samsung</p>
+                          </div>
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Price <b>2000</b></li>
+                         
+                          </ul>
+                          <div class="card-body">
+                            <a href="#" class="card-link btn btn-success">Cart+</a>
+                            <a href="#" class="card-link btn btn-success">Buy Now</a>
+                          </div>
+                        </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="resorces/image1.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung Phone</h5>
+                            <p class="card-text">Flagship Phone From Samsung</p>
+                          </div>
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Price <b>2000</b></li>
+                         
+                          </ul>
+                          <div class="card-body">
+                            <a href="#" class="card-link btn btn-success">Cart+</a>
+                            <a href="#" class="card-link btn btn-success">Buy Now</a>
+                          </div>
+                        </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid" id="jumbo-bg">
+        <div class="container" >
+          <h1 class="display-4">Save on Every Order</h1>
+          <p class="lead">Fresh and Fast Delivery Garanteened </p>
+        </div>
+      </div>
+
+      <div class="container-fluid bg-light">
+        <div class="row">
+            <div class="col">
+                <h2>Product Log</h2>
+            </div>
+        </div>
+    </div>
+
+    <section class="container-fluid bg-light borSec">
+        <div class="row" id="card-row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="resorces/pexels-matthew-montrone-1324803.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Phone</h5>
+                        <h4>Price<b> 5000</b></h4>
+                     
+                    </div>
+                    
+                    <div class="card-body">
+                        <a href="#" class="card-link btn btn-success">Cart+</a>
+                        <a href="#" class="card-link btn btn-success">Buy Now</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="resorces/image3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Phone</h5>
+                        <h4>Price<b> 5000</b></h4>
+                       
+                      </div>
+                      
+                      <div class="card-body">
+                        <a href="#" class="card-link btn btn-success">Cart+</a>
+                        <a href="#" class="card-link btn btn-success">Buy Now</a>
+                      </div>
+                    </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="resorces/image3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Phone</h5>
+                        <h4>Price<b> 5000</b></h4>
+                       
+                      </div>
+                      
+                      <div class="card-body">
+                        <a href="#" class="card-link btn btn-success">Cart+</a>
+                        <a href="#" class="card-link btn btn-success">Buy Now</a>
+                      </div>
+                    </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="resorces/image3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Phone</h5>
+                        <h4>Price<b> 5000</b></h4>
+                       
+                      </div>
+                      
+                      <div class="card-body">
+                        <a href="#" class="card-link btn btn-success">Cart+</a>
+                        <a href="#" class="card-link btn btn-success">Buy Now</a>
+                      </div>
+                    </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="resorces/image3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Phone</h5>
+                        <h4>Price<b> 5000</b></h4>
+                       
+                      </div>
+                      
+                      <div class="card-body">
+                        <a href="#" class="card-link btn btn-success">Cart+</a>
+                        <a href="#" class="card-link btn btn-success">Buy Now</a>
+                      </div>
+                    </div>
+            </div>
+        </div>
+            <div class="row" id="card-row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="resorces/image3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Phone</h5>
+                        <h4>Price<b> 5000</b></h4>
+                       
+                      </div>
+                      
+                      <div class="card-body">
+                        <a href="#" class="card-link btn btn-success">Cart+</a>
+                        <a href="#" class="card-link btn btn-success">Buy Now</a>
+                      </div>
+                    </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="resorces/image3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Phone</h5>
+                        <h4>Price<b> 5000</b></h4>
+                       
+                      </div>
+                      
+                      <div class="card-body">
+                        <a href="#" class="card-link btn btn-success">Cart+</a>
+                        <a href="#" class="card-link btn btn-success">Buy Now</a>
+                      </div>
+                    </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="resorces/image3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Phone</h5>
+                        <h4>Price<b> 5000</b></h4>
+                       
+                      </div>
+                      
+                      <div class="card-body">
+                        <a href="#" class="card-link btn btn-success">Cart+</a>
+                        <a href="#" class="card-link btn btn-success">Buy Now</a>
+                      </div>
+                    </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="resorces/image3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Phone</h5>
+                        <h4>Price<b> 5000</b></h4>
+                       
+                      </div>
+                      
+                      <div class="card-body">
+                        <a href="#" class="card-link btn btn-success">Cart+</a>
+                        <a href="#" class="card-link btn btn-success">Buy Now</a>
+                      </div>
+                    </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="resorces/image3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Phone</h5>
+                        <h4>Price<b> 5000</b></h4>
+                       
+                      </div>
+                      
+                      <div class="card-body">
+                        <a href="#" class="card-link btn btn-success">Cart+</a>
+                        <a href="#" class="card-link btn btn-success">Buy Now</a>
+                      </div>
+                    </div>
+            </div>
+        </div>
+          
+
+        <div class="row" id="card-row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="resorces/image3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Phone</h5>
+                        <h4>Price<b> 5000</b></h4>
+                       
+                      </div>
+                      
+                      <div class="card-body">
+                        <a href="#" class="card-link btn btn-success">Cart+</a>
+                        <a href="#" class="card-link btn btn-success">Buy Now</a>
+                      </div>
+                    </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="resorces/image3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Phone</h5>
+                        <h4>Price<b> 5000</b></h4>
+                       
+                      </div>
+                      
+                      <div class="card-body">
+                        <a href="#" class="card-link btn btn-success">Cart+</a>
+                        <a href="#" class="card-link btn btn-success">Buy Now</a>
+                      </div>
+                    </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="resorces/image3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Phone</h5>
+                        <h4>Price<b> 5000</b></h4>
+                       
+                      </div>
+                      
+                      <div class="card-body">
+                        <a href="#" class="card-link btn btn-success">Cart+</a>
+                        <a href="#" class="card-link btn btn-success">Buy Now</a>
+                      </div>
+                    </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="resorces/image3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Phone</h5>
+                        <h4>Price<b> 5000</b></h4>
+                       
+                      </div>
+                      
+                      <div class="card-body">
+                        <a href="#" class="card-link btn btn-success">Cart+</a>
+                        <a href="#" class="card-link btn btn-success">Buy Now</a>
+                      </div>
+                    </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="resorces/image3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Phone</h5>
+                        <h4>Price<b> 5000</b></h4>
+                       
+                      </div>
+                      
+                      <div class="card-body">
+                        <a href="#" class="card-link btn btn-success">Cart+</a>
+                        <a href="#" class="card-link btn btn-success">Buy Now</a>
+                      </div>
+                    </div>
+            </div>
+        </div>
+
+    </section>
+</div>
+
+
+<section class="bg-dark" id="newl">
+    <div id="new-text">
+    <h1>Never Miss Any Sale</h1>
+    <h3>Scbscribe to our Newsletter</h3>
+    <input type="text" placeholder="Enter you Email">
+    <button class="btn bg-success">Submit</button>
+    </div>
+</section>
+
+<footer>
+
+    <div class="f-div">
+        <h5>
+            
+            This is Developed by Team 1<br>
+            Rajat Raj Gupta<br>
+            Praful<br>
+            Prabhanjan<br>
+            Rohit<br>
+            Reuben<br>
+           
+        </h5>
+    </div>
+    <div class="f-div">
+        <h3></h3>
+       
+        <ul>
+            <a href="">
+                <li>Contact Us</li>
+            </a>
+            <a href="">
+                <li>Services</li>
+            </a>
+            <a href="">
+                <li>Help</li>
+            </a>
+            <a href="">
+                <li>Blog</li>
+            </a>
+        </ul>
+       
+        
+    </div>
+    
+    <div class="f-div">
+       <h3>For Consumer</h3>
+       
+        <ul>
+            <a href="">
+                <li>Shipping</li>
+            </a>
+            <a href="">
+                <li>Cancel Order</li>
+            </a>
+            <a href="">
+                <li>Change </li>
+            </a>
+            <a href="">
+                <li>Payment</li>
+            </a>
+            <a href="">
+                <li>Return</li>
+            </a>
+        </ul>
+        
+    </div>
+
+    <div class="f-div">
+        <h3>For Vendors</h3>
+        
+         <ul>
+             <a href="">
+                 <li>Add Product</li>
+             </a>
+             <a href="">
+                 <li>Register </li>
+             </a>
+             <a href="">
+                 <li>Raise Query </li>
+             </a>
+             <a href="">
+                 <li>Guides</li>
+             </a>
+             <a href="">
+                 <li>Change Password</li>
+             </a>
+         </ul>
+         
+     </div>
+
+     <div class="logo f-div">
+        <h1>
+            NewGen Software Pvt Ltd
+        </h1>
+     </div>
+
+  
+
+    
+</footer>
+
+
+
+
+  
+  </body>
+</html>
